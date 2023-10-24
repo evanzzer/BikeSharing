@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 # Initialization
 # Since it's already clean data, import original data
-day_df = pd.read_csv('../data/day.csv')
-hour_df = pd.read_csv('../data/hour.csv')
+day_df = pd.read_csv('data/day.csv')
+hour_df = pd.read_csv('data/hour.csv')
 
 # Preparing Data
 season_day_df = day_df.groupby("season").agg({
