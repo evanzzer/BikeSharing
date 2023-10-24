@@ -11,3 +11,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard/dashboard.py
 ```
+
+## Streamlit Cloud
+https://leafybikesharing.streamlit.app/
